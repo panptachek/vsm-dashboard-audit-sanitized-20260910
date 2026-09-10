@@ -1,0 +1,7 @@
+<svg width="220" height="90" viewBox="0 0 220 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="4" y="4" width="212" height="82" rx="28" fill="white" fill-opacity=".84" stroke="#2F80ED" stroke-width="4"/>
+  <path d="M24 59C61 35 91 32 124 44C153 55 174 57 201 35" stroke="#2F80ED" stroke-width="8" stroke-linecap="round"/>
+  <path d="M25 70C71 50 114 51 154 63C175 69 190 65 204 56" stroke="#20B7FF" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+  <text x="33" y="39" font-family="Inter, Arial" font-size="24" font-weight="900" fill="#172033">ВСМ</text>
+  <text x="81" y="39" font-family="Inter, Arial" font-size="14" font-weight="800" fill="#667085">dashboard</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Кубок периода</title>
+  <desc id="desc">Кубок для победителя отчетного периода</desc>
+  <defs>
+    <linearGradient id="cup" x1="58" y1="27" x2="185" y2="221" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF2A6"/><stop offset="0.48" stop-color="#FFD166"/><stop offset="1" stop-color="#C47A1D"/>
+    </linearGradient>
+  </defs>
+  <path d="M78 42H178V92C178 126 156 153 128 153C100 153 78 126 78 92V42Z" fill="url(#cup)"/>
+  <path d="M76 58H43C43 93 56 121 88 126" stroke="#FFD166" stroke-width="18" stroke-linecap="round"/>
+  <path d="M180 58H213C213 93 200 121 168 126" stroke="#FFD166" stroke-width="18" stroke-linecap="round"/>
+  <path d="M117 150H139V188H117V150Z" fill="#D08A25"/>
+  <path d="M85 195H171L183 224H73L85 195Z" fill="#E8A63A"/>
+  <path d="M99 73H156" stroke="#FFF1A8" stroke-width="10" stroke-linecap="round" opacity="0.85"/>
+</svg>

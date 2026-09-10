@@ -1,0 +1,17 @@
+<svg width="512" height="256" viewBox="0 0 512 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Высокоскоростной поезд</title>
+  <desc id="desc">Силуэт высокоскоростного поезда для фона дашборда</desc>
+  <defs>
+    <linearGradient id="train" x1="36" y1="67" x2="462" y2="178" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EAF7FF"/><stop offset="0.62" stop-color="#74D7FF"/><stop offset="1" stop-color="#2F80FF"/>
+    </linearGradient>
+    <linearGradient id="window" x1="155" y1="83" x2="384" y2="116" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081A2B"/><stop offset="1" stop-color="#153B5D"/>
+    </linearGradient>
+  </defs>
+  <path d="M37 154C84 100 145 72 220 69H379C427 70 463 91 491 128C458 145 418 156 370 160L87 184C57 187 27 179 14 168C19 163 28 158 37 154Z" fill="url(#train)"/>
+  <path d="M148 88H377C414 88 438 101 459 124C427 132 381 137 325 139H110C119 120 131 101 148 88Z" fill="url(#window)" opacity="0.92"/>
+  <path d="M52 174H456" stroke="#4CC9FF" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+  <path d="M93 199H424" stroke="#95C2FF" stroke-width="7" stroke-linecap="round" opacity="0.34"/>
+  <path d="M130 216H390" stroke="#95C2FF" stroke-width="5" stroke-linecap="round" opacity="0.24"/>
+</svg>

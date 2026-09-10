@@ -1,0 +1,9 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="cup" x1="40" y1="16" x2="180" y2="204"><stop stop-color="#FFF5C2"/><stop offset=".45" stop-color="#F7B500"/><stop offset="1" stop-color="#C56A00"/></linearGradient></defs>
+  <path d="M66 38H154V82C154 114 134 137 110 137C86 137 66 114 66 82V38Z" fill="url(#cup)" stroke="#9A5B00" stroke-width="7"/>
+  <path d="M66 55H36C36 92 49 112 78 113" stroke="#9A5B00" stroke-width="12" stroke-linecap="round"/>
+  <path d="M154 55H184C184 92 171 112 142 113" stroke="#9A5B00" stroke-width="12" stroke-linecap="round"/>
+  <path d="M99 137H121V166H99V137Z" fill="#D98A00"/>
+  <path d="M73 166H147L160 202H60L73 166Z" fill="url(#cup)" stroke="#9A5B00" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M87 68L103 66L110 51L117 66L133 68L121 80L124 96L110 88L96 96L99 80L87 68Z" fill="#FFF8D8" opacity=".9"/>
+</svg>

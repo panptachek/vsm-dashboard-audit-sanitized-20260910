@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Motor grader</title>
+  <desc id="desc">Industrial motor grader silhouette with long chassis, cab, wheels and central blade.</desc>
+  <g fill="none" stroke="#1a1a1a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M35 151h50l51-35h47l35 35"/>
+    <path fill="#ffffff" d="M128 72h42l18 44h-68z"/>
+    <path d="M140 85h23l9 22h-42z"/>
+    <path d="M84 151h71"/>
+    <path fill="#e5e7eb" d="M91 166h84l-20 22H72z"/>
+    <circle cx="54" cy="179" r="19" fill="#1a1a1a"/>
+    <circle cx="54" cy="179" r="8" fill="#f4f4f5" stroke-width="6"/>
+    <circle cx="189" cy="179" r="19" fill="#1a1a1a"/>
+    <circle cx="189" cy="179" r="8" fill="#f4f4f5" stroke-width="6"/>
+    <circle cx="221" cy="179" r="15" fill="#1a1a1a"/>
+    <circle cx="221" cy="179" r="6" fill="#f4f4f5" stroke-width="5"/>
+    <path d="M24 199h212"/>
+  </g>
+  <path d="M83 164h93l-12 13H71z" fill="#2563eb"/>
+</svg>

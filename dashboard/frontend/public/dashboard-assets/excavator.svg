@@ -1,0 +1,18 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Экскаватор</title>
+  <desc id="desc">Иконка экскаватора для земляных работ</desc>
+  <defs>
+    <linearGradient id="yellow" x1="35" y1="61" x2="204" y2="205" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD166"/><stop offset="1" stop-color="#E88C1B"/>
+    </linearGradient>
+  </defs>
+  <path d="M70 124H145C167 124 184 142 184 164V172H58V136C58 129 63 124 70 124Z" fill="url(#yellow)"/>
+  <path d="M86 91H132L151 124H76L86 91Z" fill="#2F80FF"/>
+  <path d="M94 99H126L137 121H85L94 99Z" fill="#BDEBFF" opacity="0.9"/>
+  <path d="M136 94L177 53L193 66L157 116" stroke="#FFD166" stroke-width="16" stroke-linecap="round"/>
+  <path d="M188 66L217 95L199 113L179 80" fill="#FFD166"/>
+  <path d="M35 173H199C216 173 229 186 229 202C229 218 216 231 199 231H35C22 231 12 221 12 209V202C12 186 25 173 35 173Z" fill="#07111F"/>
+  <path d="M39 197H200" stroke="#95C2FF" stroke-width="12" stroke-linecap="round" opacity="0.5"/>
+  <circle cx="75" cy="202" r="14" fill="#1F3A57"/>
+  <circle cx="158" cy="202" r="14" fill="#1F3A57"/>
+</svg>

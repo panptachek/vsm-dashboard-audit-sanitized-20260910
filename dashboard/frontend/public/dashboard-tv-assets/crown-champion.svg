@@ -1,0 +1,20 @@
+<svg width="240" height="170" viewBox="0 0 240 170" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="32" y1="14" x2="210" y2="158" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF6C7"/><stop offset="0.35" stop-color="#F7B500"/><stop offset="1" stop-color="#D97706"/>
+    </linearGradient>
+    <filter id="glow" x="-30" y="-30" width="300" height="230" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="10" result="b"/><feColorMatrix in="b" type="matrix" values="1 0 0 0 0.96 0 1 0 0 0.55 0 0 1 0 0.05 0 0 0 0.45 0"/><feBlend in2="SourceGraphic" mode="screen"/>
+    </filter>
+  </defs>
+  <g filter="url(#glow)">
+    <path d="M25 55L73 100L119 32L165 100L215 55L196 139H44L25 55Z" fill="url(#g)" stroke="#A16207" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M50 139H190V155C190 161 185 166 179 166H61C55 166 50 161 50 155V139Z" fill="#F59E0B" stroke="#A16207" stroke-width="6"/>
+    <circle cx="25" cy="55" r="14" fill="#FFE8A3" stroke="#A16207" stroke-width="5"/>
+    <circle cx="119" cy="32" r="18" fill="#FFF0B8" stroke="#A16207" stroke-width="5"/>
+    <circle cx="215" cy="55" r="14" fill="#FFE8A3" stroke="#A16207" stroke-width="5"/>
+    <circle cx="77" cy="122" r="10" fill="#FFF7D6" opacity=".9"/>
+    <circle cx="120" cy="116" r="13" fill="#FFF7D6" opacity=".95"/>
+    <circle cx="163" cy="122" r="10" fill="#FFF7D6" opacity=".9"/>
+  </g>
+</svg>

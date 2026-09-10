@@ -1,0 +1,12 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Простой техники</title>
+  <desc id="desc">Иконка зоны внимания для простоя техники</desc>
+  <defs>
+    <linearGradient id="warn" x1="50" y1="30" x2="204" y2="225" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFDD85"/><stop offset="1" stop-color="#FF5C73"/>
+    </linearGradient>
+  </defs>
+  <path d="M112 42C120 28 140 28 148 42L230 198C237 211 227 226 212 226H44C29 226 19 211 26 198L112 42Z" fill="url(#warn)"/>
+  <path d="M128 88V148" stroke="#07111F" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="128" cy="181" r="12" fill="#07111F"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Притрассовая дорога</title>
+  <desc id="desc">Иконка дороги и трассы для темпа отсыпки притрассовых дорог</desc>
+  <defs>
+    <linearGradient id="road" x1="87" y1="37" x2="166" y2="227" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2F80FF"/><stop offset="1" stop-color="#07111F"/>
+    </linearGradient>
+  </defs>
+  <path d="M113 35H143L208 226H56L113 35Z" fill="url(#road)"/>
+  <path d="M128 49V75" stroke="#F2F7FF" stroke-width="7" stroke-linecap="round"/>
+  <path d="M128 103V135" stroke="#F2F7FF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M128 166V214" stroke="#F2F7FF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M43 226H221" stroke="#4CC9FF" stroke-width="10" stroke-linecap="round" opacity="0.45"/>
+  <path d="M75 183H184" stroke="#FFD166" stroke-width="8" stroke-linecap="round" opacity="0.72"/>
+</svg>

@@ -1,0 +1,20 @@
+.env
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.venv/
+api/.venv/
+*.egg-info/
+.DS_Store
+/tmp/
+uploads/
+*.bak
+api/.venv/
+graphify-out/cache/
+parser-training/incoming/
+parser-training/extracted/
+parser-training/output/
+
+# Local credential inventory; never commit live passwords.
+docs/current_dashboard_users_access.md

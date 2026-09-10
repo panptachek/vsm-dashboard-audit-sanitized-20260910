@@ -1,0 +1,14 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Фон ВСМ</title>
+  <desc id="desc">Темный фон с перспективной линией высокоскоростной магистрали</desc>
+  <rect width="1920" height="1080" fill="#07111F"/>
+  <circle cx="340" cy="180" r="420" fill="#4CC9FF" fill-opacity="0.08"/>
+  <circle cx="1550" cy="120" r="360" fill="#FFD166" fill-opacity="0.05"/>
+  <path d="M160 900C520 720 925 590 1760 420" stroke="#95C2FF" stroke-opacity="0.16" stroke-width="12" stroke-linecap="round"/>
+  <path d="M118 958C526 774 980 628 1810 470" stroke="#4CC9FF" stroke-opacity="0.38" stroke-width="5" stroke-linecap="round" stroke-dasharray="36 28"/>
+  <path d="M205 844C574 674 956 548 1708 372" stroke="#FFD166" stroke-opacity="0.23" stroke-width="4" stroke-linecap="round" stroke-dasharray="20 30"/>
+  <g opacity="0.12" stroke="#95C2FF">
+    <path d="M0 940H1920"/><path d="M0 820H1920"/><path d="M0 700H1920"/><path d="M0 580H1920"/><path d="M0 460H1920"/>
+    <path d="M240 1080L760 0"/><path d="M520 1080L900 0"/><path d="M820 1080L1060 0"/><path d="M1120 1080L1220 0"/><path d="M1450 1080L1420 0"/>
+  </g>
+</svg>

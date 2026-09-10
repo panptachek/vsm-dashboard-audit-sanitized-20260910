@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Pile driver</title>
+  <desc id="desc">Industrial pile driver rig with track base, body, mast and hammer block.</desc>
+  <g fill="none" stroke="#1a1a1a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path fill="#f4f4f5" d="M37 169h113l18 17-18 17H37l-18-17z"/>
+    <circle cx="61" cy="186" r="10" fill="#1a1a1a"/>
+    <circle cx="94" cy="186" r="10" fill="#1a1a1a"/>
+    <circle cx="127" cy="186" r="10" fill="#1a1a1a"/>
+    <path fill="#ffffff" d="M70 119h58l31 50H51z"/>
+    <path d="M93 119V60"/>
+    <path d="M93 60h74"/>
+    <path d="M167 60v137"/>
+    <path d="M151 76h32"/>
+    <path d="M151 121h32"/>
+    <path fill="#e5e7eb" d="M148 85h38v35h-38z"/>
+    <path d="M41 169h116"/>
+    <path d="M41 203h116"/>
+  </g>
+  <path d="M63 151h86l11 18H52z" fill="#7c3aed"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Excavator</title>
+  <desc id="desc">Industrial excavator silhouette with tracks, cab, articulated boom and bucket.</desc>
+  <g fill="none" stroke="#1a1a1a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path fill="#f4f4f5" d="M43 164h111l19 18-19 18H43l-19-18z"/>
+    <circle cx="66" cy="182" r="11" fill="#1a1a1a"/>
+    <circle cx="102" cy="182" r="11" fill="#1a1a1a"/>
+    <circle cx="138" cy="182" r="11" fill="#1a1a1a"/>
+    <path fill="#ffffff" d="M72 102h56l28 62H56z"/>
+    <path d="M89 114h32l16 37H71z"/>
+    <path d="M128 110 164 67 201 88"/>
+    <path d="M164 67 185 111"/>
+    <path d="M201 88 219 126"/>
+    <path fill="#e5e7eb" d="M217 123c14 8 18 22 9 36l-25-13z"/>
+    <path d="M42 164h114"/>
+    <path d="M42 200h114"/>
+  </g>
+  <path d="M72 147h78l8 17H58z" fill="#f59e0b"/>
+</svg>

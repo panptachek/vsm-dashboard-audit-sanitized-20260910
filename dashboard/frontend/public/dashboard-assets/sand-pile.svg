@@ -1,0 +1,15 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Песок</title>
+  <desc id="desc">Иконка песчаной насыпи для завезенного и уложенного песка</desc>
+  <defs>
+    <linearGradient id="sand" x1="54" y1="75" x2="197" y2="207" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0A8"/><stop offset="0.46" stop-color="#FFD166"/><stop offset="1" stop-color="#D88728"/>
+    </linearGradient>
+  </defs>
+  <path d="M25 203C47 158 72 126 99 107C112 98 128 98 142 106C175 126 204 160 232 203H25Z" fill="url(#sand)"/>
+  <path d="M73 164C91 142 110 128 128 124" stroke="#FFF1A8" stroke-width="10" stroke-linecap="round" opacity="0.82"/>
+  <path d="M115 109L129 65L144 109" stroke="#FFD166" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M83 126L73 92" stroke="#FFD166" stroke-width="9" stroke-linecap="round"/>
+  <path d="M170 130L190 96" stroke="#FFD166" stroke-width="9" stroke-linecap="round"/>
+  <path d="M31 204H230" stroke="#B86E15" stroke-width="12" stroke-linecap="round" opacity="0.56"/>
+</svg>

@@ -1,0 +1,61 @@
+services:
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_NAME:?set DB_NAME}
+      POSTGRES_USER: ${DB_USER:?set DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?set DB_PASSWORD}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER} -d ${DB_NAME}"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    volumes:
+      - synthetic_db:/var/lib/postgresql/data
+      - ../database/schema.sql:/docker-entrypoint-initdb.d/10-schema.sql:ro
+      - ../database/seed_synthetic.sql:/docker-entrypoint-initdb.d/20-seed.sql:ro
+    networks: [audit]
+
+  api:
+    build: ./api
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_NAME: ${DB_NAME:?set DB_NAME}
+      DB_USER: ${DB_USER:?set DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD:?set DB_PASSWORD}
+      DB_HOST: db
+      DB_PORT: "5432"
+      VSM_AUTH_SECRET: ${VSM_AUTH_SECRET:?set VSM_AUTH_SECRET}
+      VSM_ADMIN_USERNAME: ${VSM_ADMIN_USERNAME:?set VSM_ADMIN_USERNAME}
+      VSM_ADMIN_PASSWORD: ${VSM_ADMIN_PASSWORD:?set VSM_ADMIN_PASSWORD}
+      VSM_USER_USERNAME: ${VSM_USER_USERNAME:?set VSM_USER_USERNAME}
+      VSM_USER_PASSWORD: ${VSM_USER_PASSWORD:?set VSM_USER_PASSWORD}
+      VSM_EXTRA_USERS_JSON: "[]"
+      TEMP_ROADS_DB_DSN: postgresql://${DB_USER}:${DB_PASSWORD}@db:5432/${DB_NAME}
+      GMAIL_DRY_RUN: "true"
+      RESEND_DRY_RUN: "true"
+      DASHBOARD_SHORT_CACHE_TTL_SECONDS: "30"
+    ports:
+      - "127.0.0.1:${API_PORT:-18090}:8090"
+    mem_limit: 1600m
+    networks: [audit]
+
+  frontend:
+    build: ./frontend
+    restart: unless-stopped
+    depends_on: [api]
+    ports:
+      - "127.0.0.1:${FRONTEND_PORT:-18083}:80"
+    mem_limit: 512m
+    networks: [audit]
+
+volumes:
+  synthetic_db:
+
+networks:
+  audit:
+    driver: bridge

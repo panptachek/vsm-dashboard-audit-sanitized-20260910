@@ -1,0 +1,17 @@
+<svg width="640" height="420" viewBox="0 0 640 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="420"><stop stop-color="#EAF5FF"/><stop offset=".55" stop-color="#F6F8FB"/><stop offset="1" stop-color="#FFF0CF"/></linearGradient>
+    <linearGradient id="sun" x1="403" y1="58" x2="515" y2="160"><stop stop-color="#FFF7D6"/><stop offset="1" stop-color="#F7B500"/></linearGradient>
+  </defs>
+  <rect width="640" height="420" rx="36" fill="url(#bg)"/>
+  <circle cx="500" cy="92" r="54" fill="url(#sun)" opacity=".8"/>
+  <path d="M0 292C96 236 181 226 278 258C387 294 471 318 640 232V420H0V292Z" fill="#FDE7B4"/>
+  <path d="M62 298C202 244 338 273 479 309C542 325 585 322 640 303" stroke="#2F80ED" stroke-width="11" stroke-linecap="round" opacity=".55"/>
+  <path d="M81 325H560" stroke="#98A2B3" stroke-width="8" stroke-linecap="round" opacity=".6"/>
+  <path d="M126 229H306L338 274H96L126 229Z" fill="#F59E0B" stroke="#9A3412" stroke-width="7"/>
+  <path d="M331 247H420L456 274H331V247Z" fill="#2F80ED" stroke="#1457B8" stroke-width="7"/>
+  <circle cx="159" cy="286" r="24" fill="#101828"/><circle cx="159" cy="286" r="10" fill="#E4E7EC"/>
+  <circle cx="405" cy="286" r="24" fill="#101828"/><circle cx="405" cy="286" r="10" fill="#E4E7EC"/>
+  <text x="56" y="92" font-family="Inter, Arial" font-size="42" font-weight="900" fill="#172033">Участок ВСМ</text>
+  <text x="58" y="132" font-family="Inter, Arial" font-size="22" font-weight="700" fill="#667085">строительное табло</text>
+</svg>

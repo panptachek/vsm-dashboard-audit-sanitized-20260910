@@ -1,0 +1,17 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Сваебойная установка</title>
+  <desc id="desc">Иконка сваебойной установки для показателя забитых свай</desc>
+  <defs>
+    <linearGradient id="steel" x1="91" y1="25" x2="180" y2="226" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BDEBFF"/><stop offset="1" stop-color="#2F80FF"/>
+    </linearGradient>
+  </defs>
+  <path d="M103 33H131V194H103V33Z" fill="url(#steel)"/>
+  <path d="M138 54H170V194H138V54Z" fill="#153B5D"/>
+  <path d="M92 78H181" stroke="#4CC9FF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M92 118H181" stroke="#4CC9FF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M82 194H190V219H82V194Z" fill="#07111F"/>
+  <path d="M55 219H217" stroke="#95C2FF" stroke-width="12" stroke-linecap="round" opacity="0.48"/>
+  <path d="M115 28V15" stroke="#FFD166" stroke-width="8" stroke-linecap="round"/>
+  <path d="M146 50V31" stroke="#FFD166" stroke-width="8" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Bulldozer</title>
+  <desc id="desc">Industrial bulldozer silhouette with track base, cab and front blade.</desc>
+  <g fill="none" stroke="#1a1a1a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path fill="#f4f4f5" d="M42 151h131l18 19-18 19H42l-18-19z"/>
+    <path fill="#ffffff" d="M78 92h58l23 59H61z"/>
+    <path d="M92 92V61h45"/>
+    <path d="M99 106h31l14 35H85z"/>
+    <path fill="#e5e7eb" d="M190 138h40l-10 67h-49z"/>
+    <path d="M177 151h19"/>
+    <path d="M174 189h45"/>
+    <circle cx="58" cy="170" r="12" fill="#1a1a1a"/>
+    <circle cx="94" cy="170" r="12" fill="#1a1a1a"/>
+    <circle cx="130" cy="170" r="12" fill="#1a1a1a"/>
+    <path d="M47 151h118"/>
+    <path d="M47 189h118"/>
+  </g>
+  <path d="M65 132h91l7 19H57z" fill="#ca8a04"/>
+</svg>

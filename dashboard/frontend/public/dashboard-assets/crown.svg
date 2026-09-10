@@ -1,0 +1,22 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Корона лидера</title>
+  <desc id="desc">Золотая корона для карточки участка-победителя</desc>
+  <defs>
+    <linearGradient id="gold" x1="38" y1="51" x2="221" y2="216" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0A8"/>
+      <stop offset="0.42" stop-color="#FFD166"/>
+      <stop offset="1" stop-color="#E29A25"/>
+    </linearGradient>
+    <filter id="glow" x="0" y="0" width="256" height="256" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <path filter="url(#glow)" d="M33 91.2C31.2 84.6 38.9 79.5 44.4 83.6L89.8 117.4L119.6 57.7C122.6 51.8 131.1 51.8 134 57.8L163.4 117.4L210.4 83.4C215.9 79.4 223.5 84.6 221.8 91.1L190 204H63L33 91.2Z" fill="url(#gold)"/>
+  <path d="M64 176H190L181.5 204H72.2L64 176Z" fill="#B86E15" opacity="0.55"/>
+  <circle cx="43" cy="84" r="15" fill="#FFF4B8"/>
+  <circle cx="127" cy="54" r="17" fill="#FFF4B8"/>
+  <circle cx="213" cy="84" r="15" fill="#FFF4B8"/>
+  <path d="M70 148H185" stroke="#FFF5B9" stroke-width="10" stroke-linecap="round" opacity="0.82"/>
+  <path d="M81 206H179" stroke="#FFE08A" stroke-width="14" stroke-linecap="round"/>
+</svg>

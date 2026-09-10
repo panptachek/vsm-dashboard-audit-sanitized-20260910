@@ -1,0 +1,18 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Самосвал</title>
+  <desc id="desc">Иконка самосвала для завоза песка и отсыпки</desc>
+  <defs>
+    <linearGradient id="body" x1="42" y1="71" x2="206" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD166"/><stop offset="1" stop-color="#F59E2E"/>
+    </linearGradient>
+  </defs>
+  <path d="M29 112L139 76L161 137H49L29 112Z" fill="url(#body)"/>
+  <path d="M154 104H198L225 137V170H154V104Z" fill="#2F80FF"/>
+  <path d="M172 117H195L211 137H172V117Z" fill="#BDEBFF" opacity="0.9"/>
+  <path d="M42 137H229V174H42V137Z" fill="#15283E"/>
+  <circle cx="78" cy="178" r="26" fill="#07111F"/>
+  <circle cx="78" cy="178" r="11" fill="#95C2FF"/>
+  <circle cx="190" cy="178" r="26" fill="#07111F"/>
+  <circle cx="190" cy="178" r="11" fill="#95C2FF"/>
+  <path d="M40 115L133 84" stroke="#FFF0A8" stroke-width="8" stroke-linecap="round" opacity="0.72"/>
+</svg>
